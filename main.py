@@ -1,67 +1,40 @@
-ogrenci_adi = input("Ogrencinin adini girin: ")
-
-yas = int(input("Ogrencinin yasini girin: "))
-
-sinav_puani = int(input("Ogrencinin sinav puanini girin: "))
-
-proje_puani = int(input("Ogrencinin proje puanini girin: ")) 
-
-devamsizlik = int(input("Ogrencinin devamsizlik sayisini girin: ")) 
+ogrenci_adi = input("Öğrencinin adını girin: ")
+yas = int(input("Öğrencinin yaşını girin: "))
+sinav_puani = int(input("Öğrencinin sınav puanını girin: "))
+proje_puani = int(input("Öğrencinin proje puanını girin: "))
+devamsizlik = int(input("Öğrencinin devamsızlık sayısını girin: "))
 
 if yas >= 18:
-
-    print("Yetiskin Ogrenci")
-
+    print("Yetişkin Öğrenci")
 else:
-
-    print("Yetiskin Olmayan Ogrenci")
+    print("Yetişkin Olmayan Öğrenci")
 
 if sinav_puani >= 85:
-
-    print("Cok Iyi")
-
+    print("Çok İyi")
 elif sinav_puani >= 70:
-
-    print("Iyi") 
-
+    print("İyi")
 elif sinav_puani >= 50:
-
-    print("Gecti")
-
+    print("Geçti")
 else:
-
-    print("Kaldi")
+    print("Kaldı")
 
 if sinav_puani >= 70 and proje_puani >= 70:
-
-    print("Akademik Olarak Basarili")
-
+    print("Akademik Olarak Başarılı")
 else:
-
-    print("Akademik basari sartlari saglanmadi")
+    print("Akademik başarı şartları sağlanmadı")
 
 if sinav_puani >= 90 or proje_puani >= 90:
-
-    print("Ustun Performans Gosterdi")
-
+    print("Üstün Performans Gösterdi")
 else:
-
-    print("Ustun Performans Sarti Saglanmadi")
+    print("Üstün Performans Şartı Sağlanmadı")
 
 if devamsizlik <= 5:
-
-    print("Devamsizlik Uygun")
-
+    print("Devamsızlık Uygun")
 else:
-
-    print("Devamsizlik Fazla")
+    print("Devamsızlık Fazla")
 
 if sinav_puani >= 85:
-
     if devamsizlik <= 5:
-
-        print("Takdir adayi")
-
+        print("Takdir adayı")
     else:
-
-        print("Notu yuksek fakat devamsizligi fazla")
+        print("Notu yüksek fakat devamsızlığı fazla")

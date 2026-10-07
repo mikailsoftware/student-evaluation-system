@@ -1,30 +1,30 @@
 # Student Evaluation System
 
-Python ogrenme surecimde gelistirdigim basit bir ogrenci degerlendirme sistemi.
+Python öğrenme sürecimde geliştirdiğim basit bir öğrenci değerlendirme sistemi.
 
-## Ozellikler
+## Özellikler
 
-- Ogrenci bilgilerini alma
-- Yas kontrolu
-- Sinav puani degerlendirmesi
-- Proje puani kontrolu
-- Devamsizlik kontrolu
-- Akademik basari kontrolu
-- Ustun performans kontrolu
-- Takdir adayi belirleme
+* Öğrenci bilgilerini alma
+* Yaş kontrolü
+* Sınav puanı değerlendirmesi
+* Proje puanı kontrolü
+* Devamsızlık kontrolü
+* Akademik başarı kontrolü
+* Üstün performans kontrolü
+* Takdir adayı belirleme
 
-## Kullanilan Python Konulari
+## Kullanılan Python Konuları
 
-- input()
-- int()
-- if
-- elif
-- else
-- and
-- or
-- ic ice if
+* `input()`
+* `int()`
+* `if`
+* `elif`
+* `else`
+* `and`
+* `or`
+* İç içe `if`
 
-## Calistirma
+## Çalıştırma
 
 ```bash
 python main.py
